@@ -2,6 +2,6 @@
 
 Data extraction tutorial using data from patients with Glioblastoma.
 
-*Counts with thresholds
-*Distance analysis
-*Co-occurence matrix
+* Counts with thresholds
+* Distance analysis
+* Co-occurrence matrix

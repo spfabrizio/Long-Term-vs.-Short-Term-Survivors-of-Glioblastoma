@@ -49,8 +49,40 @@ Each pixel in the image has the intensity value of every single marker the antib
 </div>
 <br>
 
-All antibodies used for staining include DAPI (nuclei), CD31 (vessels), CD11c (dendritic cells), CD163 (M2 macrophages), CD205 (dendritic cells), CD206 (M2 macrophages), CD8 (cytotoxic T cells), CD4 (helper T cells), CD103 (tissue-resident memory T cells), FOXP3 (regulatory T cells (Tregs)), GFAP (astrocytes), GRZMB (granzyme B in cytotoxic lymphocytes), HLADR (MHC Class II antigen-presenting cells), INFγ (Interferon-gamma produced by Th1 cells and NK cells), Ki67 (proliferation marker), NFAT1 (transcription factor in T cell activation), NFAT2 (transcription factor in T cell activation), P2RY12 (microglia), PD1 (exhausted T cells), PDL1 (inhibits T cell activity), Perforin (found in cytotoxic T cells and NK cells), SOX2 (stem cell pluripotency marker), TIM3 (exhaustion marker on T cells), TNFa (pro-inflammatory cytokine), cCasp3 (marker of apoptosis), pLCK (activated LCK kinase in T cells), pSTAT3 (signaling marker in immune cells), and CD68 (macrophages).
+All antibodies used for staining include:
+<div align="center">
 
+| **Antibody** | **Target** |
+|--------------|------------|
+| **DAPI**     | Nuclei      |
+| **CD31**     | Vessels     |
+| **CD11c**    | Dendritic cells |
+| **CD163**    | M2 macrophages |
+| **CD205**    | Dendritic cells |
+| **CD206**    | M2 macrophages |
+| **CD8**      | Cytotoxic T cells |
+| **CD4**      | Helper T cells |
+| **CD103**    | Tissue-resident memory T cells |
+| **FOXP3**    | Regulatory T cells (Tregs) |
+| **GFAP**     | Astrocytes  |
+| **GRZMB**    | Granzyme B in cytotoxic lymphocytes |
+| **HLADR**    | MHC Class II antigen-presenting cells |
+| **INFγ**     | Interferon-gamma produced by Th1 cells and NK cells |
+| **Ki67**     | Proliferation marker |
+| **NFAT1**    | Transcription factor in T cell activation |
+| **NFAT2**    | Transcription factor in T cell activation |
+| **P2RY12**   | Microglia   |
+| **PD1**      | Exhausted T cells |
+| **PDL1**     | Inhibits T cell activity |
+| **Perforin** | Found in cytotoxic T cells and NK cells |
+| **SOX2**     | Stem cell pluripotency marker |
+| **TIM3**     | Exhaustion marker on T cells |
+| **TNFa**     | Pro-inflammatory cytokine |
+| **cCasp3**   | Marker of apoptosis |
+| **pLCK**     | Activated LCK kinase in T cells |
+| **pSTAT3**   | Signaling marker in immune cells |
+| **CD68**     | Macrophages |
+</div>
 
 ---
 

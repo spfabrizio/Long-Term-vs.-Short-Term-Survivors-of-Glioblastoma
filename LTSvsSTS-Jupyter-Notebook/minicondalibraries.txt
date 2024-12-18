@@ -3,6 +3,4 @@ numpy
 pandas
 
 matplotlib
-pytest
-scikit-learn
-fairlearn
+

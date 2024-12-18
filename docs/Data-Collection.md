@@ -9,6 +9,7 @@ Protocol to quantify immune cell distribution from the vasculature to the glioma
 **Abstract: Summary**  
 Although myeloid-derived immune cells can be dispersed throughout the tumor microenvironment (TME), anti-tumor effector cells are confined to the perivascular space. Here, we present a protocol to quantify immune cell distribution from tumor vasculature to its glioma microenvironment on sequential immunofluorescence multiplex images. We describe steps for sequential immunofluorescence multiplex staining, image generation, and storage. We then detail the procedures for tissue, vessel, and nuclei segmentation; cell phenotyping; data extraction; and training using RStudio and Spyder.
 
+![LTSvsSTS-Abstract](/docs/images/LTSvsSTS-Abstract.png)
 # Data Collection Background
 
 IMAGE

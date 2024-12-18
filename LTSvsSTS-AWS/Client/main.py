@@ -25,13 +25,6 @@ from configparser import ConfigParser
 #
 # classes
 #
-class User:
-
-  def __init__(self, row):
-    self.userid = row[0]
-    self.username = row[1]
-    self.pwdhash = row[2]
-
 
 class Job:
 
@@ -264,7 +257,7 @@ def upload_and_compute(baseurl):
     local_filename = input()
 
     if not pathlib.Path(local_filename).is_file():
-      print("PDF file '", local_filename, "' does not exist...")
+      print("JSON file '", local_filename, "' does not exist...")
       return
 
     print("Enter compute id>")

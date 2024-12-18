@@ -12,7 +12,7 @@ To run the Jupyter Notebook, ensure that all the libraries listed in `minicondal
   - **LTSvsSTS_Analysis.ipynb**: Contains functions and templates to perform computations.
   - **minicondalibraries.txt**: Contains python modules required to run code.
 
-## Threshold Dictionary (`thresholddict`)
+## Threshold Dictionary
 
 The `thresholddict` dictionary contains threshold values for each marker per sample. Each entry in the dictionary corresponds to a CSV file and includes 26 keys, each representing a marker. The values indicate the signal intensity required to label a cell as positive for that marker.
 
@@ -34,7 +34,7 @@ thresholddict = {
 
 **Note:** Ensure that each entry in `thresholddict` has all 26 keys corresponding to the columns in the CSV files. If you remove any entries from `thresholddict`, update the `filelist` accordingly.
 
-## File List (`filelist`)
+## File List
 
 The `filelist` variable contains the paths to all 20 CSV data files.
 
@@ -52,7 +52,7 @@ filelist = [
 
 **Important:** If you remove any entries from `thresholddict`, ensure that the corresponding files are also removed from `filelist`.
 
-## Phenotype Dictionary (`phenotypedict`)
+## Phenotype Dictionary
 
 The `phenotypedict` dictionary defines phenotypes based on combinations of markers. Each key is the name of the phenotype, and the value is a list of marker columns that define that phenotype. A cell is considered positive for a phenotype if all markers in the list exceed their respective thresholds.
 
@@ -71,7 +71,7 @@ phenotypedict = {
 
 **Note:** The list can contain any combination of marker names corresponding to the CSV columns. Customize the phenotype names and marker combinations as needed.
 
-## Distance Dictionary (`distancedict`)
+## Distance Dictionary
 
 The `distancedict` dictionary is used to perform computations on specific ranges of distance measurements within the dataset. Each key represents a distance category, and the value is a list defining the range.
 

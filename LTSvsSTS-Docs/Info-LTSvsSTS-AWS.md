@@ -20,8 +20,6 @@
 </div>
 <br>
 
----
-
 ## IAM Setup
 
 1. **Create CLI User**
@@ -74,8 +72,6 @@
    - Attach it to the **s3readwrite** user.
    - Retrieve the user’s access and secret keys.
 
----
-
 ## RDS Setup
 
 1. **Create RDS Database**
@@ -126,8 +122,6 @@ FLUSH PRIVILEGES;
   - In any **ltsvssts_/** folder find `ltsvsstsapp-config.ini` and fill in missing details for RDS connection.
   - Fill in missing details with keys for users created.
 
----
-
 ## Lambda Setup
 
 1. **Upload Lambda Functions**
@@ -175,7 +169,6 @@ aws s3 cp pymysql-layer.zip s3://bucket-name
    - Follow the [ECR tutorial](https://docs.aws.amazon.com/lambda/latest/dg/python-image.html#python-image-base) to create a Docker iamge for the **ltsvssts_compute4** folder.
    - Create a new lambda function with the created image.
    - Add an S3 trigger with Prefix `LTSvsSTS3-Template/` and Suffix `.json`.
----
 
 ## API Gateway Setup
 
@@ -192,8 +185,6 @@ aws s3 cp pymysql-layer.zip s3://bucket-name
   <img src="/LTSvsSTS-Docs/images/LTSvsSTS-API.png" alt="Description of image" width="200"/>
 </div>
 <be>
-
----
 
 ## Client Setup
 

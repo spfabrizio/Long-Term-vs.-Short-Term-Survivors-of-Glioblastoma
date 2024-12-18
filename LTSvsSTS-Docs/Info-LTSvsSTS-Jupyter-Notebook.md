@@ -99,7 +99,7 @@ distancedict = {
    ```
 
 2. **Prepare Data:**
-   - Place all CSV files in the `LTSvsSTS-Data/` directory.
+   - Place all CSV files in the **LTSvsSTS-Data/** directory.
    - Ensure that `thresholddict`, `phenotypedict`, and `distancedict` are correctly defined in the `LTSvsSTS_Analysis.ipynb` notebook.
 
 3. **Run the Jupyter Notebook:**
@@ -108,7 +108,7 @@ distancedict = {
 
 4. **Review Results:**
    - Results will be saved in the local directory.
-   - Sample outputs using default values are already provided for reference in `LTSvsSTS-Results/`.
+   - Sample outputs using default values are already provided for reference in **LTSvsSTS-Results/**.
 
 ## Important Considerations
 

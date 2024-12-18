@@ -13,7 +13,7 @@ Although myeloid-derived immune cells can be dispersed throughout the tumor micr
 
 <br>
 <div align="center">
-  <img src="/docs/images/LTSvsSTS-Abstract.png" alt="Description of image" width="550"/>
+  <img src="/LTSvsSTS-Docs/images/LTSvsSTS-Abstract.png" alt="Description of image" width="550"/>
 </div>
 <br>
 
@@ -28,7 +28,7 @@ These tumors are processed after removal being formalin-fixed and paraffin-embed
 
 <br>
 <div align="center">
-  <img src="/docs/images/LTSvsSTS-FFPE.png" alt="Description of image" width="650"/>
+  <img src="/LTSvsSTS-Docs/images/LTSvsSTS-FFPE.png" alt="Description of image" width="650"/>
 </div>
 <br>
 
@@ -36,7 +36,7 @@ Antibodies are also loaded into COMET™. These antibodies attach to antigens wh
 
 <br>
 <div align="center">
-  <img src="/docs/images/LTSvsSTS-Lunaphore.png" alt="Description of image" width="850"/>
+  <img src="/LTSvsSTS-Docs/images/LTSvsSTS-Lunaphore.png" alt="Description of image" width="850"/>
 </div>
 <br>
 
@@ -45,7 +45,7 @@ Each pixel in the image has the intensity value of every single marker the antib
 
 <br>
 <div align="center">
-  <img src="/docs/images/LTSvsSTS-Antibodies.png" alt="Description of image" width="650"/>
+  <img src="/LTSvsSTS-Docs/images/LTSvsSTS-Antibodies.png" alt="Description of image" width="650"/>
 </div>
 <br>
 
@@ -100,7 +100,7 @@ Follow the steps in “Part 3: Nuclei detection” using Visiopharm’s pre-trai
 
 <br>
 <div align="center">
-  <img src="/docs/images/LTSvsSTS-Nuclei.png" alt="Description of image" width="650"/>
+  <img src="/LTSvsSTS-Docs/images/LTSvsSTS-Nuclei.png" alt="Description of image" width="650"/>
 </div>
 <br>
 

@@ -1,4 +1,4 @@
-# Running the Jupyter Notebook for LTS vs SSTS Analysis
+# Running the Jupyter Notebook for LTS vs STS Analysis
 
 ## Prerequisites
 
@@ -9,6 +9,8 @@ To run the Jupyter Notebook, ensure that all the libraries listed in `minicondal
 - **LTSvsSTS-Jupyter-Notebook/**
   - **LTSvsSTS-Data/**: Contains all 20 CSV files of the data extracted from all samples. Each CSV file includes signal-intensity data for all 26 markers analyzed for each cell. These CSVs were created using the protocol described [here](#). Note that the original protocol outputs TSV files, which have been converted to CSV format for easier visualization.
   - **LTSvsSTS-Results/**: Contains sample result outputs from the `LTSvsSTS_Analysis.ipynb` using default values.
+  - **LTSvsSTS_Analysis.ipynb**: Contains functions and templates to perform computations.
+  - **minicondalibraries.txt**: Contains python modules required to run code.
 
 ## Threshold Dictionary (`thresholddict`)
 
@@ -105,8 +107,8 @@ distancedict = {
    - Execute the notebook cells to perform data analysis using the defined dictionaries and file list.
 
 4. **Review Results:**
-   - Results will be saved in the `LTSvsSTS-Results/` directory.
-   - Sample outputs using default values are already provided for reference.
+   - Results will be saved in the local directory.
+   - Sample outputs using default values are already provided for reference in `LTSvsSTS-Results/`.
 
 ## Important Considerations
 
